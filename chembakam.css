@@ -87,7 +87,7 @@ ul li{
 .circ{
     display: flex;
     margin-top: 40px;
-    margin-left: 270px;
+   margin-left: 100px;
     justify-content: space-between;
 }
 .cc{
@@ -119,13 +119,13 @@ ul li{
     text-align: center;
     color: rgb(119, 116, 116);
 }
-.colection{
+/*.colection{
     display: flex;
     justify-content: space-between;
 }
 .colection1{
     display: flex;
-    margin-left: 300px;
+    margin-left: 120px;
 }
 .dress{
     width: 300px;
@@ -133,4 +133,41 @@ ul li{
 }
 .cole{
     margin:0px 10px;
+}*/
+.img{
+    width: 300px;
+    height: 300px;
+
+}
+.mm{
+    margin-left: 50px;
+}
+.r{
+    margin-left: 00px;
+    font-size: 20px;
+}
+.btn{
+    font-size: 20px;
+    background-color: rgb(238, 236, 236);
+    color: rgb(145, 141, 141);
+    border-color: rgb(128, 126, 126);
+}
+.aa{
+    color: rgb(138, 135, 135);
+}
+.brows{
+    background-color: rgb(251, 248, 248);
+    border-style: solid;
+    border-color: rgb(151, 148, 148);
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(152, 150, 150);
+    text-align: center;
+}
+.pg{
+    margin-top: 10px;
+}
+.cen{
+    padding-left: 50%;
 }
