@@ -87,7 +87,7 @@ ul li{
 .circ{
     display: flex;
     margin-top: 40px;
-   margin-left: 100px;
+   margin-left: 270px;
     justify-content: space-between;
 }
 .cc{
@@ -140,7 +140,7 @@ ul li{
 
 }
 .mm{
-    margin-left: 50px;
+    margin-left: 250px;
 }
 .r{
     margin-left: 00px;
@@ -169,5 +169,14 @@ ul li{
     margin-top: 10px;
 }
 .cen{
-    padding-left: 50%;
+    padding-left: 800px;
+}
+.end{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+}
+.content{
+    color: azure;
+    margin-left: 500px;
 }
