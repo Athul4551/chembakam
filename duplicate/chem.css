@@ -1,0 +1,192 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.upnav{
+    background-color: rgba(249, 218, 180,.5);
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 5px 90px;
+}
+
+.nav{
+    display: flex;
+    background-color: rgb(55, 55, 55);
+    justify-content: space-between;
+    color:rgb(255, 230, 201);
+    align-items: center;
+    padding: 10px 90px;
+}
+.logo img{
+    height: 70px;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.left div{
+    margin: 0 15px;
+    font-size: 14px;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.right div{
+    margin: 0 15px;
+}
+
+.right input{
+    border: px solid white;
+    background-color: transparent;
+    padding: 10px;
+    
+}
+.rnd{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: grey;
+    text-align: center;
+    
+}
+
+.bigimg{
+    height: 83vh;
+    background-image: url(/images/big_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bigimg .content{
+    position: absolute;
+    top: 12%;
+    left: 7%;
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+.bigimg .contimg{
+    height: 100px;
+    /* background-color: green; */
+    width: auto;
+    margin: 20px 0;
+}
+
+.contimg img{
+    width: 100%;
+    height: 100%;
+}
+
+.bigbuttn button{
+    padding: 15px 45px;
+    color: darkgray;
+    font-size:14px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 0;
+}
+
+.typeofprdctm{
+    /* background-color: green; */
+    height: 30vh;
+    padding:4% 3%;
+}
+.typeofprdct{
+    /* background-color: yellow; */
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.typeofprdctcard{
+    /* background-color: red; */
+    height:100%;
+    width: 13.5%;
+}
+.prodtypeimg1,.prodtypeimg2 ,.prodtypeimg3,.prodtypeimg3,.prodtypeimg4, .prodtypeimg5,.prodtypeimg6,.prodtypeimg7{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85%;
+    border-radius: 50%;
+}
+.prodtypeimg1{
+    background-image: url(../chembakam/image/d1.webp);
+}
+.prodtypeimg2{
+    background-image: url(../chembakam/image/d1.webp);
+}
+.prodtypeimg3{
+    background-image: url(../chembakam/image/d1.webp);
+}
+.prodtypeimg4{
+    background-image: url(../chembakam/image/d1.webp);
+}
+.prodtypeimg5{
+    background-image: url(../chembakam/image/d1.webp);
+}
+.prodtypeimg6{
+    background-image: url(../chembakam/image/d1.webp);
+}
+.prodtypeimg7{
+    background-image: url(../chembakam/image/d1.webp);
+}
+.typeofprdctdata{
+    padding: 10px;
+    text-align: center;
+}
+
+.bsph{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: gray;
+    padding: 25px;
+    /* background-color: yellow; */
+}
+
+.bspm {
+   background-color: rgba(128, 128, 128,.2);
+   height: 160vh;
+   display: flex;
+   padding: 10px 3%;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.bspm .cardm1,.cardm2,.cardm3,.cardm4,.cardm5,.cardm6,.cardm7,.cardm8{
+    /* background-color: yellow; */
+    height:73vh;
+    width: 24%; 
+    margin: 10px 0;
+    /* padding: ;   */
+}
+
+.cardimg{
+    height: 60%;
+    background-image: url(../chembakam/image/d1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cardtext p{
+    margin: 25px 30px 30px;
+}
+
+.cardtext h3{
+    margin: 0 30px 10px;
+}
+
+.cardbutton button{
+    border-radius: 0;
+    padding: 15px;
+    border: 1px solid grey;
+    margin: 10px 30px ;
+}

@@ -119,7 +119,7 @@ ul li{
     text-align: center;
     color: rgb(119, 116, 116);
 }
-/*.colection{
+.colection{
     display: flex;
     justify-content: space-between;
 }
@@ -133,28 +133,33 @@ ul li{
 }
 .cole{
     margin:0px 10px;
-}*/
-.img{
-    width: 300px;
-    height: 300px;
-
+    color: rgb(140, 134, 134);
 }
-.mm{
-    margin-left: 250px;
+.pp{
+    width: 270px;
+    height: 20px;
+    margin-top: 35px;
 }
-.r{
-    margin-left: 00px;
+.cash{
+    color: black;
+    margin-top:40px ;
     font-size: 20px;
 }
 .btn{
-    font-size: 20px;
-    background-color: rgb(238, 236, 236);
-    color: rgb(145, 141, 141);
-    border-color: rgb(128, 126, 126);
+        font-size: 20px;
+        background-color: rgb(250, 249, 249);
+        color: rgb(145, 141, 141);
+        border-color: rgb(128, 126, 126);
+        margin-top: 15px;
+        margin-bottom: 20px;
 }
-.aa{
-    color: rgb(138, 135, 135);
+.cler{
+    width: 100%;
+    height: 20px;
+    background-color: black;
 }
+
+
 .brows{
     background-color: rgb(251, 248, 248);
     border-style: solid;
@@ -166,17 +171,56 @@ ul li{
     text-align: center;
 }
 .pg{
-    margin-top: 10px;
+     margin-top: 10px;
 }
 .cen{
-    padding-left: 800px;
+      padding-left: 600px;
 }
+.posi{
+    margin-left: 130px;
+    padding-top: 100px;
+}
+.content{
+    margin-left: 120px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+            /*.img{
+                width: 300px;
+                height: 300px;
+            
+            }
+            .mm{
+                margin-left: 250px;
+            }
+            .r{
+                margin-left: 00px;
+                font-size: 20px;
+            }
+            .aa{
+                color: rgb(138, 135, 135);
+             } */
 .end{
     width: 100%;
     height: 350px;
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
 }
-.content{
-    color: azure;
-    margin-left: 500px;
+.left1{
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+    margin-right: 100px;
 }
+
+.left1 div{
+    justify-content: space-between;
+}
+.navi1{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+
