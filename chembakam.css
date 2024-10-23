@@ -21,7 +21,7 @@
 .left{
     display: flex;
     margin-top: 40px;
-    margin-right: 600px;
+    margin-right: 500px;
 }
 .left div{
     margin: 0 20px;
@@ -119,6 +119,24 @@
     text-align: center;
     color: rgb(119, 116, 116);
 }
+.brows{
+    background-color: rgb(251, 248, 248);
+    border-style: solid;
+    border-color: rgb(151, 148, 148);
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(152, 150, 150);
+    text-align: center;
+    margin-left: 200px;
+    justify-content: center;
+}
+.pg{
+     margin-top: 10px;
+}
+.cen{
+      padding-left: 600px;
+}
 .colection{
     display: flex;
     justify-content: space-between;
@@ -164,24 +182,6 @@
 }
 
 
-.brows{
-    background-color: rgb(251, 248, 248);
-    border-style: solid;
-    border-color: rgb(151, 148, 148);
-    width: 300px;
-    height: 50px;
-    font-size: 20px;
-    color: rgb(152, 150, 150);
-    text-align: center;
-    margin-left: 200px;
-    justify-content: center;
-}
-.pg{
-     margin-top: 10px;
-}
-.cen{
-      padding-left: 600px;
-}
 .posi{
     margin-left: 130px;
     padding-top: 100px;
@@ -223,5 +223,68 @@
     color: azure;
     display: flex;
 
+}
+footer{
+    background-color: black;
+    height: 48vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-block1{
+    padding: 60px 15px;
+}
+
+.footer-block1 .container{
+    margin: 0 50px;
+    padding: 0 12px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row div{
+    margin: 0 20px;
+}
+.foot-logo{
+    height: 50px;
+    width: 300px;
+    background-image: url(image/chemblogo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foot-icon{
+    height: 20px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot-icon div{
+    font-size: 18px;
+    color: #ffe8df;
+    font-weight: 700;
+}
+
+.footer-block1 h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+.footer-block1 div{
+    font-size: 14px;
+    line-height: 24px;
+    color: #7d8498;
+    font-weight: 400;
+    font-family: jost, sans-serif;
+}
+
+.footer-block1 li{
+    list-style: none;
 }
 
