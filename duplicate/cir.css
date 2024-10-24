@@ -1,0 +1,38 @@
+.box{
+    display: flex;
+    /* margin-left: 5%; 
+     margin-right: 5%; 
+     margin-top: 3%;  */
+     background-color: green;
+    flex-wrap: wrap;
+    /* padding-left: 159px; */
+    height: 300px;
+    /* margin-top: 10x; */
+    width: 100%;
+}
+.box1{
+    width: 200px;
+    height: 260px;
+    margin: 15px 15px;
+    background-color: red;
+    padding: 5px;
+     margin-top: 00%; 
+    /* padding-top: 5%; */
+/* margin-bottom: 5%; */
+}
+.boximg{
+    background-color: yellow;
+    height: 180px;
+    width: 150;
+}
+.boximg img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.boxcon{
+    background-color: pink;
+    height: 30%;
+    width: 100%;
+     color: rgb(133, 131, 131); 
+}

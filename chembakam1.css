@@ -1,15 +1,3 @@
-*{
-    margin: 0px;
-}
-/* .ww{
-    position: fixed;
-    color: black;
-    background-color: bisque;
-    display: flex;
-    background-color: bisque;
-    color: black;
-    padding: 5px;
-} */
 .upnav{
     background-color: rgba(249, 218, 180,.5);
     font-size: 14px;
@@ -144,92 +132,76 @@
 .cen{
       padding-left: 600px;
 }
-/*.colection{
+.box{
     display: flex;
-    justify-content: space-between;
-    margin-left: 190px;
+    margin-left: 5%; 
+     margin-right: 5%; 
+     margin-top: 3%; 
+     /* background-color: green;   */
+    flex-wrap: wrap;
+    padding-left: 159px;
+    height: 200vh;
+    /* margin-top: 10x; */
 }
-.colection1{
-    display: flex;
-    margin-left: 120px;
-}
-.dress{
+.box1{
     width: 300px;
-    height: 300px;
+    height: 500px;
+    margin: 15px 15px;
+    /* background-color: red; */
+    padding: 5px;
+     margin-top: 00%; 
+    /* padding-top: 5%; */
+/* margin-bottom: 5%; */
 }
-.cole{
-    margin:0px 10px;
-    color: rgb(140, 134, 134);
+.box1-img{
+    /* background-color: yellow; */
+    height: 60%;
+    width: 100%;
 }
-.pp{
-    width: 270px;
-    height: 20px;
-    margin-top: 35px;
+.box1-img img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
 }
-.cash{
+.box1-content{
+    /* background-color: pink; */
+    height: 40%;
+    width: 100%;
+     color: rgb(133, 131, 131); 
+}
+.bold{
     color: black;
-    margin-top:40px ;
-    font-size: 20px;
 }
 .btn{
-        font-size: 20px;
-        background-color: rgb(238, 237, 237);
-        color: rgb(145, 141, 141);
-        border-color: rgb(128, 126, 126);
-        margin-top: 15px;
-        margin-bottom: 20px;
-        border: none;
-        width: 150px;
-        height: 50px;
+   
+    height: 50px;
+    width: 150px;
+    /* cursor: ; */
+    color: rgb(131, 123, 123);
 }
-.cler{
-    width: 100%;
-    height: 20px;
-    background-color: black;
+.best{
+    font-size: 36px;
+    text-align: center;
+    color: rgb(119, 116, 116);
+    margin-bottom: 0px;
 }
-
-
-.posi{
-    margin-left: 130px;
-    padding-top: 100px;
+.brows{
+    background-color: rgb(251, 248, 248);
+    border-style: solid;
+    border-color: rgb(151, 148, 148);
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    color: rgb(152, 150, 150);
+    text-align: center;
+    margin-left: 200px;
+    justify-content: center;
 }
-.content{
-    margin-left: 120px;
-    margin-top: 10px;
-    padding-top: 10px;
+.pg{
+     margin-top: 10px;
 }
-            .img{
-                width: 300px;
-                height: 300px;
-            
-            }
-            .mm{
-                margin-left: 250px;
-            }
-            .r{
-                margin-left: 00px;
-                font-size: 20px;
-            }
-            .aa{
-                color: rgb(138, 135, 135);
-             } */
-
-.embeded{
-    width: 100%;
-    height: 300px;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-}
-.embed{
-    display: flex;
-    justify-content: space-between;
-    color: aliceblue;
-}
-.fool{
-    color: azure;
-    display: flex;
-
+.cen{
+      padding-left: 600px;
 }
 footer{
     background-color: black;
@@ -294,81 +266,3 @@ footer{
 .footer-block1 li{
     list-style: none;
 }
-.box{
-    display: flex;
-    margin-left: 10px; 
-     margin-right: 10px; 
-     margin-top: 3%; 
-     /* background-color: green;   */
-    flex-wrap: wrap;
-    padding-left: 100px;
-    height: 140vh;
-    width: 100%;
-    /* margin-top: 10x; */
-}
-.box1{
-    width: 300px;
-    height: 500px;
-    margin: 15px 15px;
-    /* background-color: red; */
-    padding: 5px;
-     margin-top: 00%; 
-    /* padding-top: 5%; */
-/* margin-bottom: 5%; */
-}
-.box1-img{
-    /* background-color: yellow; */
-    height: 60%;
-    width: 100%;
-}
-.box1-img img{
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
-}
-.box1-content{
-    /* background-color: pink; */
-    height: 40%;
-    width: 100%;
-     color: rgb(133, 131, 131); 
-     justify-content: space-between;
-}
-.bold{
-    color: black;
-}
-.btn{
-   
-    height: 50px;
-    width: 150px;
-    /* cursor: ; */
-    color: rgb(131, 123, 123);
-}
-.best{
-    font-size: 36px;
-    text-align: center;
-    color: rgb(119, 116, 116);
-    margin-bottom: 0px;
-}
-.brows{
-    background-color: rgb(251, 248, 248);
-    border-style: solid;
-    border-color: rgb(151, 148, 148);
-    width: 300px;
-    height: 50px;
-    font-size: 20px;
-    color: rgb(152, 150, 150);
-    text-align: center;
-    margin-left: 200px;
-    justify-content: center;
-}
-.pg{
-     margin-top: 10px;
-}
-.cen{
-      padding-left: 600px;
-}
-@media only screen and (max-width:1220px) and (min-width:600px){
-    
-}
-
-
