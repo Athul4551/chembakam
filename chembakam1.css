@@ -205,29 +205,37 @@
       padding-left: 600px;
 }
 footer{
+    height: 100vh;
+}
+.row{
+    padding: 0 120px;
+}
+.colm1,.colm2,.colm3,.colm4{
+    margin: 20px 0;
+
+}
+footer{
     background-color: black;
     height: 48vh;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 .footer-block1{
     padding: 60px 15px;
-    flex-wrap: wrap;
 }
 
 .footer-block1 .container{
     margin: 0 50px;
     padding: 0 12px;
-    flex-wrap: wrap;
 }
 .row{
     display: flex;
     flex-wrap: wrap;
 }
 
-.row div{
+.row li{
     margin: 0 20px;
 }
 .foot-logo{
@@ -357,7 +365,7 @@ footer{
     .first{
         width: 300px;
         height: 300px;
-        margin-left: 20px;
+        margin-left: 70px;
         margin-top: 120px;
        
     }
@@ -404,8 +412,27 @@ footer{
         width: 75;
     }
     .best{
-        font-size: 20px;
+        font-size: 10px;
         text-align:center;
+        padding-top: 00px;
+        /* margin-top: 00px; */
+        /* margin-left: 70px; */
+    }
+    .h33{
+        font-size: 20px;
+        text-align: center;
+    }
+    .br{
+        display: none;
+    }
+    .box1{
+        height: 200px;
+        width: 50px;
+    }
+    .btn{
+        width: 100px;
+        height: 20px;
+        font-size: 10px;
     }
 
 }    
